@@ -43,3 +43,6 @@ Build output is in each application's `dist/` directory. Preview with `pnpm --fi
 This is a design prototype, not a production recruitment service. Initial jobs are sample data. AI job-link extraction is simulated, not a live AI service. Application changes and attached CV files are held in the browser session and are not persisted to a server; refreshing can lose them. There is no authentication or backend persistence. Do not use it as the only copy of important application information.
 
 Google Fonts needs an internet connection; system fonts are used when unavailable.
+
+## Demo Link 
+https://drive.google.com/file/d/1kl8cJD09alcuiUBAUgQBJ8CZYPw5phXA/view?usp=sharing
