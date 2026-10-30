@@ -1,0 +1,41 @@
+.ns-app{min-height:0!important;height:810px;width:1440px;overflow:hidden}
+.ns-app .job-sidebar{height:810px;min-height:0;position:relative}
+.ns-app .job-content{animation:none}
+.ns-navitem{display:flex;align-items:center;gap:12px;padding:13px 14px;border-radius:13px;font-size:13px;color:#767970}
+.ns-navitem.active{background:#292b27;color:#fafbf6}
+.ns-navitem span{margin-left:auto;border-radius:6px;background:#454740;padding:2px 6px;font-size:10px}
+.ns-tab{border-radius:20px;padding:8px 15px;font-size:10px;transition:background .25s,color .25s}
+.ns-tab.active{background:#292c27;color:#fafbf6}
+.ns-tab span{margin-left:6px;font-size:9px;opacity:.65}
+.ns-chip{background:#fafbf7;border:1px solid #dedfd4;border-radius:14px;padding:5px 10px;font-size:9px}
+.ns-add{transition:transform .15s}
+.ns-add.pressed,.ns-save.pressed,.ns-demo.pressed{transform:scale(.94)}
+.ns-ph{color:#b3b7aa}
+.ns-seg{border-radius:8px;font-size:10px;padding:10px 13px;color:#dce2d5}
+.ns-seg.on{background:#fdfdf7;color:#3c4234}
+.ns-panel{max-height:none!important;height:640px;overflow:hidden!important;position:relative!important;top:0!important}
+.ns-panel-logo{background:#fdfdf8!important;width:48px;height:48px;border-radius:12px;font-size:22px;margin-bottom:15px;color:#80758f}
+.ns-panel-title{font-size:20px;letter-spacing:-.5px;font-weight:500;line-height:1.3}
+.ns-select{flex:1;display:flex;justify-content:space-between;align-items:center;border:1px solid #e1e5d7;background:#fbfcf5;border-radius:8px;padding:9px;font-size:10px;transition:background .3s}
+.ns-select.offer{background:#e6f6df;border-color:#bcd8ad;color:#4f7b42}
+.job-application-card{transition:background .25s,border-color .25s,box-shadow .25s!important}
+.ns-backdrop{position:absolute!important}
+.ns-editor{max-height:762px!important;height:762px;overflow:hidden!important;display:flex;flex-direction:column}
+.ns-editor-viewport{flex:1;overflow:hidden;min-height:0}
+.ns-footer{position:relative!important;margin:0 30px!important}
+.ns-input{display:flex;align-items:center;min-height:40px;font-size:12px;border:1px solid #e4e7da;border-radius:9px;padding:11px 12px;background:#fffffb;color:#414a36;font-weight:400}
+.ns-input.tall{min-height:84px;align-items:flex-start;line-height:1.7}
+.ns-input.filled{border-color:#d8cfee}
+.ns-fieldset{display:grid;gap:16px}
+.ns-caret{display:inline-block;width:1.5px;height:15px;background:#3c344a;margin-left:2px;animation:ns-blink .8s steps(2) infinite}
+@keyframes ns-blink{50%{opacity:0}}
+.ns-demo.busy{opacity:.55}
+.ns-upload{display:grid;gap:8px}
+.ns-file{font-size:10px;color:#738165}
+.ns-file b{font-weight:400;padding:7px 10px;border-radius:12px;margin-right:10px;background:#e5ecd9;color:#657451}
+.ns-version{display:grid;gap:7px;font-size:10px;color:#7a816f;font-weight:500}
+.ns-toast{position:absolute!important}
+.ns-cursor{position:absolute;left:0;top:0;width:26px;height:26px;z-index:80;pointer-events:none;filter:drop-shadow(0 3px 5px #1f262033)}
+.ns-ripple{position:absolute;left:-14px;top:-14px;width:30px;height:30px;border-radius:50%;border:2px solid #8c7cac}
+.ns-click-label{position:absolute;left:24px;top:26px;white-space:nowrap;background:#3c344a;color:#faf6fd;font:500 12px 'DM Sans',sans-serif;padding:6px 11px;border-radius:14px 14px 14px 4px;box-shadow:0 6px 18px #2a223a30}
+.ns-bell.on{background:#eee9fc;border-color:#d8cfee}

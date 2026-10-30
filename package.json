@@ -1,0 +1,15 @@
+{
+  "name": "job-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @nextstep/dashboard dev",
+    "dev:walkthrough": "pnpm --filter @nextstep/walkthrough dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
